@@ -1,0 +1,184 @@
+body,html{
+    height:100vh;
+    margin:0;
+    background:black;
+    -webkit-box-sizing: border-box;
+  }
+#c{
+  width:100%;
+  height:100%;
+}
+
+@media only screen and (max-width: 890px) {
+  body,html {
+    background-color: lightblue;
+    z-index: -1;
+
+    background-size: cover;
+    background-position: center, center;
+  }
+  #preloader{
+    display: "none";
+  }
+  #profile{
+    position: absolute;
+    z-index: 10;
+    opacity: 1;
+  }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  body,html {
+    background-color: lightblue;
+    z-index: -1;
+
+    background-size: cover;
+    background-position: center, center;
+  }
+  #profile{
+    position: absolute;
+    z-index: 10;
+    opacity: 1;
+  }
+}
+
+@property --a {
+  initial-value: 0deg;
+  inherits: false;
+  syntax: '<angle>';
+}
+@property --h {
+  initial-value: 0;
+  inherits: false;
+  syntax: '<number>';
+}
+#preloader{
+  background: rgb(255, 255, 255) url(../loader.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+body {
+  animation: theme 21s linear infinite;
+  
+}
+@keyframes dark {
+  0% {
+    background: #59946e;
+  }
+  16% {
+    background: #468c88;
+  }
+  33% {
+    background: #3c8e97;
+  }
+  50% {
+    background: #4095b6;
+  }
+  66% {
+    background: #9c3449;
+  }
+  83% {
+    background: #8f4135;
+  }
+  100% {
+    background: #59946e;
+  }
+}
+@keyframes theme {
+  0% {
+    background: #74C390;
+  }
+  16% {
+    background: #5DBDB6;
+  }
+  33% {
+    background: #59D4E1;
+  }
+  50% {
+    background: #51BCE8;
+  }
+  66% {
+    background: #FA5374;
+  }
+  83% {
+    background: #E46653;
+  }
+  100% {
+    background: #74C390;
+  }
+}
+@keyframes background {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* ::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  /*scrollbar-width: none;  /* Firefox */
+/*} */
+
+ 
+/* Slider styling */
+.theme-switch-container {
+  display: flex;
+  align-items: center;
+  width: 82px;
+}
+
+.theme-slider {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-slider input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked+.slider {
+  background-color: #66bb6a;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

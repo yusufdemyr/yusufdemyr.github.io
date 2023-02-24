@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Device</title>
+    <meta name="description" content="Tool that calculate things.">
+     <!-- FONT GOOGLE -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+     <!-- GÖSTERGE PANELİ -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Custom CSS Files -->
+    <link rel="stylesheet" href="main.css">
+    <!-- For The God of Tablets -->
+    <link rel="stylesheet" media="(max-width:768px)" href="tablet.css">
+    <!-- For The God of Mobiles -->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+</head>
+<body>
+    
+   <section class="kafa">
+    <a href="../index.html"><img class="home-button" src="iconBig.png"></a>
+    <h1>Calculator Device</h1>
+   </section>
+   
+   <section><center><p id="max" style="color:red;">MAX:32 Character</p></center></section>
+   <section class="gösterge">
+    <input id="giris" type="text" placeholder="0" maxlength="32" disabled>
+   </section>
+   <section class="gövde">
+        <a id="buton"href="#/"class ="operator"onclick="operand(this);">%</a>
+        <a id="buton"href="#/"onclick="ce();">CE</a>
+        <a id="buton"href="#/"onclick="Sil();">C</a>
+        <a class="fas fa-backspace" id="buton"href="#/" onclick="c();"></a>
+        <a id="buton"href="#/"onclick=işlemfonksiyonu(this);>1/X</a>
+        <a id="buton"href="#/"onclick=işlemfonksiyonu(this);>x<span class="sup">2</span></a>
+        <a id="buton"href="#/"onclick=işlemfonksiyonu(this);>√x</a>
+        <a id="buton"href="#/"class ="operator"onclick="operand(this);">÷</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">7</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">8</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">9</a>
+        <a id="buton"href="#/"class ="operator"onclick="operand(this);">x</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">4</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">5</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">6</a>
+        <a id="buton"href="#/"class ="operator"onclick="operand(this);">−</a>
+        <a id="buton"href="#/" onclick="Numbers(this);">1</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">2</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">3</a>
+        <a id="buton"href="#/"class ="operator"onclick="operand(this);">+</a>
+        <a id="buton"href="#/"onclick=işlemfonksiyonu(this);>+/-</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">0</a>
+        <a id="buton"href="#/"onclick="Numbers(this);">.</a>
+        <a class= "calculate" id="buton"href="#/"onclick="Hesapla();">CALCULATE!</a>
+   </section>
+
+
+<script src="myApp.js"></script>
+</body>
+</html>

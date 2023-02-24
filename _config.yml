@@ -1,0 +1,81 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Yusuf Demir
+email:
+description: >
+    The crazy thing is that they are all just like me. wild.
+baseurl: ""
+url: "http://yusufdemyr.github.io/index.html"
+permalink: /:year/:month/:title.html
+github_username: yusufdemyr
+categories: [blog,code-archive,community]
+
+pagination:
+    enabled: true
+    per_page: 3
+    permalink: '/page/:num/'
+    limit: 0
+    sort_field: 'date'
+    sort_reverse: true
+    title: :title
+    
+
+
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+collections:
+    my_tags:
+        output: true
+        permalink: /blog/tagged/:name/
+    blog:
+        output: true
+        permalink: /blog/:title/
+    community:
+        output: true
+        permalink: /community/:title/
+    home:
+        output: true
+    code-archive:
+        output: true
+        permalink: /code-archive/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+  -
+    scope:
+      path: ""
+      type: codes
+    values:
+      layout: post
+    

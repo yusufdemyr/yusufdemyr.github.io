@@ -1,0 +1,82 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+th {
+    border-style: solid;
+    border-width: thin;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+td {
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    font-family: mono;
+    width: 20px;
+    height: 20px;
+    white-space: nowrap;
+}
+
+figure {
+    background: #f5f5f5;
+    display: inline-block !important;
+    margin: 1em 40px !important;
+}
+
+figcaption {
+    font-size: small;
+}
+
+.mostwanted {
+    font-family: mono;
+}
+
+#hidden-carousel {
+    min-height: 330px;
+}
+
+div.carousel-caption {
+    color: black !important;
+    text-shadow: none !important;
+    position: relative !important;
+    left: 10%;
+    bottom: 0px;
+    width: 80%;
+}
+
+#hidden-carousel .carousel-inner .item .activations {
+    padding-top: 20px;
+}
+
+.carousel-control {
+    width: 10% !important;
+}
+
+#repoplug:before {
+    background-image: url("/assets/octocat_favicon_2.png");
+}
+#geoplug:before {
+    background-image: url("/assets/geo_favicon.png");
+}
+#actorplug:before {
+    background-image: url("/assets/actor_favicon.png");
+}
+
+ul.plug li {
+    list-style: none;
+}
+
+ul.plug li:before {
+    content: '';
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+    margin-right: 10px;
+}
+

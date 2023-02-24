@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Neural {{ page.title }}</title>
+        <link rel="shortcut icon" type="image/png" href="/assets/{{ page.favicon }}.png">
+        <meta property="og:image" content="{{site.url}}/assets/{% if page.thumbnail %}{{page.thumbnail}}{% else %}{{page.favicon }}{% endif %}.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer="true"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" defer="true"></script>
+<script src="/rbm/gen.js" defer="true"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="/rbm/gen.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-40008549-2', 'auto');
+    ga('send', 'pageview');
+</script>
+</head>
+
+<body data-namesource="/rbm/data/{{ page.data_file }}.json" data-gentag="{{ page.data_file }}">
+<a class="hidden-md hidden-sm hidden-xs" href="https://github.com/colinmorris/char-rbm"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<div class="container">
+<div class="row main">
+<div class="widget col-md-9 col-xs-12">
+
+    <div class="row">
+        <div id="porthole" class="col-md-9 col-xs-12">
+            <div class="well"><span id="generated" class="loading">loading...</span>
+           
+                <a id="tweet" class="btn" href="https://twitter.com/share?url={{site.url | append: page.url}}" target="_blank">
+                <img src="/assets/twitter.svg" title="Tweet this name" alt="Tweet this name"/>
+            </a>
+
+            </div>
+        </div>
+    </div>
+  
+    <!-- Refresh button row -->
+    <div class="row">
+        <div class="col-xs-4 col-md-3 col-md-offset-3 col-xs-offset-4">
+        <button id="thebutton" type="button" class="center-block btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-refresh">
+        </button></div>
+        
+        <div class="col-md-3 col-xs-4">
+            <span id="weird">
+            <span id="fire" class="glyphicon glyphicon-fire btn cool"></span>
+            <span id="whatsweird" class="glyphicon glyphicon-question-sign" data-toggle="tooltip" title="Switch to samples assigned higher energy (and therefore lower probability) by the model. Expect weirdness." data-placement="bottom"></span>
+            </span>
+        </div>
+    </div>
+
+    <!-- History -->
+    <div class="row" id="historyrow">
+        <div class="col-xs-6 col-md-3">
+            <div class="panel panel-warning" id="history-container">
+            <div class="panel-heading" id="historytoggle" href="#history-tab" data-toggle="collapse">
+            <h4 class="panel-title">
+                <span class="glyphicon glyphicon-time"></span>
+                <span id="historytogglechevron" class="glyphicon glyphicon-chevron-up"></span>
+            </h4>
+            </div>
+
+            <div class="panel-body collapse sample-list" id="history-tab">
+                <ul id="history" class="list-unstyled">
+                </ul>
+            </div>
+            </div> <!-- /panel -->
+            
+        </div>
+
+    </div> <!-- /history row -->
+
+</div> <!-- /widget -->
+
+<!-- hack for mobile spacing -->
+<div id="mobilebuffer" class="col-xs-12 hidden-lg hidden-md"></div>
+<div class="about col-md-3 col-xs-9">
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+
+    <p class="plug">For more details, check out my <a href="/blog/dreaming-rbms">blog post</a>.</p>
+
+    <p>People who enjoyed this nonsense also liked...</p>
+
+    <ul class="plug">
+        {% if page.data_file != "repos" %}<a href="/rbm/repos"><li id="repoplug">GitHub repo generator</li></a>{% endif %}
+        {% if page.data_file != "usgeo" %}<a href="/rbm/geo"><li id="geoplug">Place name generator</li></a>
+        {% endif %}
+        {% if page.data_file != "actors" %}<a href="/rbm/actors"><li id="actorplug">Actor name generator</li></a>
+        {% endif %}
+    </ul>
+
+    {% if page.data_file == "repos" %}<p class="plug"><a href="/rbm/zoo">A peek inside the brain of this network</a></p>{% endif %}
+    {% if page.data_file == "usgeo" and false %}
+    <div id="kicksville" class="center-block">
+    <a href="/assets/rbm/kicksville.png" class="thumbnail">
+        <img src="/assets/rbm/kicksville_thumb.png" title="A map of all-generated places">
+        "Kicksville" - a map of all-generated place names.
+    </a>
+    </div>
+    {% endif %}
+
+</div> <!-- /about -->
+
+</div> <!-- /row -->
+
+</div>
+</body
+</html>

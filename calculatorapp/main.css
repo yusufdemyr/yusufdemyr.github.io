@@ -1,0 +1,196 @@
+/* RESET CSS */ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+*/
+html {
+    scroll-behavior: smooth;
+    font-family: 'Kufam', cursive;
+	
+}
+body {
+	background: rgb(195,34,194);
+	background: linear-gradient(135deg, rgba(128,21,127,1) 0%, rgba(15,3,24,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+.kafa {
+	display:flex;
+	width: 45vw;
+	height: 5em;
+	align-items: center;
+	/* border: 2px solid red; */
+	/* justify-content: center; */
+	margin: auto;
+	margin-top: 2rem;
+}
+.kafa h1{
+	color: red;
+	font-size: 2em;
+	animation: fade 2s linear infinite;
+	justify-self: center;
+	padding-left: 30%;
+	
+}
+.gösterge{
+	display: flex;
+	width: 135ch;
+	height: 6ch;
+	justify-content: center;
+	font-family: 'VT323', monospace !important;
+	/* border: 2px solid red; */
+	margin: auto;
+	padding-right: 21px;
+}
+.gösterge input{
+	width: 96%;
+	background-color: rgb(158, 173, 134);
+	font-family: 'VT323', monospace !important;
+	color: black;
+	text-align: right;
+	font-size: 7ch;
+	font-weight: 400;
+	
+}
+.gösterge input::placeholder{
+	font-family: 'VT323', monospace !important;
+	color: black;
+}
+
+.gösterge input::selection{ 
+	background: transparent;
+	
+}
+/* İNPUT */
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+.gövde {
+	display:grid;
+	position: relative;
+	grid-template-areas: 
+	'1 2 3 4'
+	'1 2 3 4'
+	'1 2 3 4'
+	'1 2 3 4'
+	'1 2 3 4'
+	'1 2 3 4'
+	;
+	width: 52vw;
+	height: 80vh;
+	margin: auto;
+	margin-top: 3px;
+}
+.sup {
+	position: relative;
+	bottom: 1ex; 
+	font-size: 80%;
+  }
+.gövde #buton{
+	display: flex;
+	width: 15vw;
+	height: 10vh;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(223, 155, 10, 0.767);
+	transition: 0.3s;
+}
+.gövde #buton:hover{
+	background-color: white;
+	cursor: pointer;
+}
+.gövde #buton:active{
+	background-color: gray;
+}
+/* .gövde #buton:visited{
+	background-color: white;
+} */
+.fas{
+	margin-top: 14.784px;
+}
+a{
+	margin-top:1ch;
+	color:royalblue;
+	overflow: hidden;
+	font-size:x-large;
+	font-weight: 800;
+}
+a:hover {
+	-webkit-box-shadow: 0 8px 6px -6px rgb(43, 95, 1);
+	-moz-box-shadow: 0 8px 6px -6px rgb(43, 95, 1);
+	box-shadow: 0 8px 6px -6px rgb(43, 95, 1);
+}
+
+@keyframes fade {
+    from {color:rgba(113, 136, 217, 1);}
+	50% {color:rgba(113, 136, 217, 0);}
+    to {color:rgba(113, 136, 217, 1);}
+}
+
+.home-button {
+	display:flex;
+}
+/* .home-button{
+	color: red;
+	font-size: 2em;
+	animation: fade 2s linear infinite;
+	
+} */
