@@ -37,6 +37,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
+
 collections:
     my_tags:
         output: true
