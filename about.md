@@ -21,5 +21,5 @@ became commonplace, I realized I loved browsing, researching, and playing with
 websites. Everything I've learned along the way is helping me in adding greater 
 values on my work.
 
-You can contact me at demir.yusuf7@hotmail.com
+You can contact me at <a href="mailto: demir.yusuf7@hotmail.com">demir.yusuf7@hotmail.com</a>
 
