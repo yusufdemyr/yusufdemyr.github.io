@@ -1,0 +1,83 @@
+// Top 10 movies
+[
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "rating": 9.3,
+    "genre": "Drama",
+    "timeLeft": "2 h 22 m",
+    "poster": "https://www.themoviedb.org/t/p/original/y3ULnBxPeEsUmgK2hSvFkzkIpYF.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "rating": 9.2,
+    "genre": "Crime, Drama",
+    "timeLeft": "2 h 55 m",
+    "poster": "https://www.themoviedb.org/t/p/original/3Tf8vXykYhzHdT0BtsYTp570JGQ.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rating": 9.0,
+    "genre": "Action, Crime, Drama",
+    "timeLeft": "2 h 32 m",
+    "poster": "https://www.themoviedb.org/t/p/original/xQPgyZOBhaz1GdCQIPf5A5VeFzO.jpg"
+  },
+  {
+    "title": "The Godfather II",
+    "year": 1974,
+    "rating": 9.0,
+    "genre": "Crime, Drama",
+    "timeLeft": "3 h 22 m",
+    "poster": "https://www.themoviedb.org/t/p/original/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+    "title": "12 Angry Men",
+    "year": 1957,
+    "rating": 9.0,
+    "genre": "Crime, Drama",
+    "timeLeft": "1 h 36 m",
+    "poster": "https://www.themoviedb.org/t/p/original/2QXLVh32JKaWTjFJU3n8aIxRK9P.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1993,
+    "rating": 9.0,
+    "genre": "Biography, History, Drama",
+    "timeLeft": "3 h 15 m",
+    "poster": "https://www.themoviedb.org/t/p/original/doGEE2DgjET0XK0k9BozsMBES5H.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "rating": 9.0,
+    "genre": "Action, Adventure, Drama",
+    "timeLeft": "3 h 21 m",
+    "poster": "https://www.themoviedb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "rating": 8.9,
+    "genre": "Crime, Drama",
+    "timeLeft": "2 h 34 m",
+    "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "rating": 8.8,
+    "genre": "Action, Adventure, Drama",
+    "timeLeft": "2 h 58 m",
+    "poster": "https://www.themoviedb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "rating": 8.8,
+    "genre": "Adventure, Western",
+    "timeLeft": "2 h 41 m",
+    "poster": "https://www.themoviedb.org/t/p/original/6tis7qmFzgu1cNhnqAmpbm8Dfq3.jpg"
+  }
+]
