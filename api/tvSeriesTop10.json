@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Breaking Bad",
+        "year": "2008 - 2013",
+        "rating": 9.5,
+        "genre": "Crime, Drama, Thriller",
+        "timeLeft": "49 m",
+        "poster": "https://www.themoviedb.org/t/p/original/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+    },
+    {
+        "title": "Planet Earth II",
+        "year": "2016",
+        "rating": 9.5,
+        "genre": "Documentary",
+        "timeLeft": "4 h 58 m",
+        "poster": "https://www.themoviedb.org/t/p/original/5maYKYzWpE68ycxGh1luu4P2LOS.jpg"
+    },
+    {
+        "title": "Planet Earth",
+        "year": "2006 - 2023",
+        "rating": 9.4,
+        "genre": "Documentary",
+        "timeLeft": "8 h 58 m",
+        "poster": "https://www.themoviedb.org/t/p/original/zdDDYjI2cPLO2yz7pLnI4MOig5r.jpg"
+    },
+    {
+        "title": "Band of Brothers",
+        "year": "2001",
+        "rating": 9.4,
+        "genre": "Drama, History, War",
+        "timeLeft": "9 h 54 m",
+        "poster": "https://www.themoviedb.org/t/p/original/4asGkkGy5Mg1owxkkZ52REYK4Ae.jpg"
+    },
+    {
+        "title": "Chernobyl",
+        "year": "2019",
+        "rating": 9.4,
+        "genre": "Drama, History, Thriller",
+        "timeLeft": "5 h 30 m",
+        "poster": "https://www.themoviedb.org/t/p/original/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+    },
+    {
+        "title": "The Wire",
+        "year": "2002 - 2008",
+        "rating": 9.3,
+        "genre": "Crime, Drama, Thriller",
+        "timeLeft": "59 m",
+        "poster": "https://www.themoviedb.org/t/p/original/4lbclFySvugI51fwsyxBTOm4DqK.jpg"
+    },
+    {
+        "title": "Blue Planet II",
+        "year": "2017",
+        "rating": 9.3,
+        "genre": "Documentary",
+        "timeLeft": "6 h 4 m",
+        "poster": "https://www.themoviedb.org/t/p/original/ljRxEUdOWFcpgAy0fd9IKQUJ6xE.jpg"
+    },
+    {
+        "title": "The Sopranos",
+        "year": "1999 - 2007",
+        "rating": 9.2,
+        "genre": "Crime, Drama",
+        "timeLeft": "55 m",
+        "poster": "https://www.themoviedb.org/t/p/original/57okJJUBK0AaijxLh3RjNUaMvFI.jpg"
+    },
+    {
+        "title": "Cosmos: A Spacetime Odyssey",
+        "year": "2014",
+        "rating": 9.3,
+        "genre": "Documentary",
+        "timeLeft": "9 h 17 m",
+        "poster": "https://www.themoviedb.org/t/p/original/5o07ps0QZ0bNoRYxTn9cPdRWlUu.jpg"
+    },
+    {
+        "title": "Our Planet",
+        "year": "2019 - 2023",
+        "rating": 9.3,
+        "genre": "Documentary",
+        "timeLeft": "50 m",
+        "poster": "https://www.themoviedb.org/t/p/original/h1SyT1Scrtj4AMk266WDaPSHFAR.jpg"
+    }
+]

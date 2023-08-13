@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+        "year": "2023",
+        "rating": 7.6,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 39 m",
+        "watchingTime": "1 h 05 m",
+        "poster": "https://www.themoviedb.org/t/p/original/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg"
+    },
+    {
+        "title": "The Super Mario Bros. Movie",
+        "year": "2023",
+        "rating": 7.1,
+        "genre": "Animation, Adventure, Comedy",
+        "timeLeft": "1 h 32 m",
+        "watchingTime": "1 h 20 m",
+        "poster": "https://www.themoviedb.org/t/p/original/iXD2VjzyXmOGJrR0Kt46IUpH3DE.jpg"
+    },
+    {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": "2023",
+        "rating": 8.8,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "2 h 20 m",
+        "watchingTime": "1 h 11 m",
+        "poster": "https://www.themoviedb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+    },
+    {
+        "title": "Miraculous - Le film",
+        "year": "2023",
+        "rating": 6.1,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 45 m",
+        "watchingTime": "1 h 00 m",
+        "poster": "https://www.themoviedb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+    },
+    {
+        "title": "Elemental",
+        "year": "2023",
+        "rating": 7.1,
+        "genre": "Animation, Adventure, Comedy",
+        "timeLeft": "1 h 41 m",
+        "watchingTime": "0 h 41 m",
+        "poster": "https://www.themoviedb.org/t/p/original/6oH378KUfCEitzJkm07r97L0RsZ.jpg"
+    },
+    {
+        "title": "Puss in Boots: The Last Wish",
+        "year": "2022",
+        "rating": 7.9,
+        "genre": "Animation, Adventure, Comedy",
+        "timeLeft": "1 h 42 m",
+        "watchingTime": "1 h 00 m",
+        "poster": "https://www.themoviedb.org/t/p/original/kuf6dutpsT0vSVehic3EZIqkOBt.jpg"
+    },
+    {
+        "title": "Resident Evil: Death Island",
+        "year": "2023",
+        "rating": 5.8,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 27 m",
+        "watchingTime": "1 h 27 m",
+        "poster": "https://www.themoviedb.org/t/p/original/t79Rw5MPBT0DRxrUvnMeKhBWkJa.jpg"
+    },
+    {
+        "title": "Nimona",
+        "year": "2023",
+        "rating": 7.6,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 41 m",
+        "watchingTime": "0 h 27 m",
+        "poster": "https://www.themoviedb.org/t/p/original/2NQljeavtfl22207D1kxLpa4LS3.jpg"
+    },
+    {
+        "title": "Ruby Gillman, Teenage Kraken",
+        "year": "2023",
+        "rating": 5.7,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 31 m",
+        "watchingTime": "1 h 09 m",
+        "poster": "https://www.themoviedb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": "2018",
+        "rating": 8.4,
+        "genre": "Animation, Action, Adventure",
+        "timeLeft": "1 h 57 m",
+        "watchingTime": "1 h 57 m",
+        "poster": "https://www.themoviedb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+    }
+]

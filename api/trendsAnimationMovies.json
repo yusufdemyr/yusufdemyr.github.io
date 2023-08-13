@@ -1,0 +1,130 @@
+[
+  {
+    "title": "WALL·E",
+    "year": "2008",
+    "rating": 8.4,
+    "genre": "Animation, Action, Family",
+    "timeLeft": "1 h 38 m",
+    "poster": "https://www.themoviedb.org/t/p/original/cuEW51vCopojT5c0prMrvDrka3x.jpg"
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "year": "2023",
+    "rating": 7.1,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 32 m",
+    "poster": "https://www.themoviedb.org/t/p/original/iXD2VjzyXmOGJrR0Kt46IUpH3DE.jpg"
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": "2023",
+    "rating": 8.8,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "2 h 20 m",
+    "poster": "https://www.themoviedb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+  },
+  {
+    "title": "Toy Story",
+    "year": "1995",
+    "rating": 8.3,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 21 m",
+    "poster": "https://www.themoviedb.org/t/p/original/9DzjFjtbpiRnENmi6vODaxBgQLZ.jpg"
+  },
+  {
+    "title": "The Incredibles",
+    "year": "2004",
+    "rating": 8.0,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "1 h 55 m",
+    "poster": "https://www.themoviedb.org/t/p/original/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg"
+  },
+  {
+    "title": "Ratatouille",
+    "year": "2007",
+    "rating": 8.1,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 51 m",
+    "poster": "https://www.themoviedb.org/t/p/original/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "year": "1994",
+    "rating": 8.5,
+    "genre": "Animation, Adventure, Drama",
+    "timeLeft": "1 h 28 m",
+    "poster": "https://www.themoviedb.org/t/p/original/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+  },
+  {
+    "title": "Aladdin",
+    "year": "1992",
+    "rating": 8.0,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 30 m",
+    "poster": "https://www.themoviedb.org/t/p/original/nK5WctIEXgToIDyzhkjCHG2wJVA.jpg"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "year": "2010",
+    "rating": 8.1,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "1 h 38 m",
+    "poster": "https://www.themoviedb.org/t/p/original/q9JwFktEfzdXlE7gFjKSTOD3jpK.jpg"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": "2018",
+    "rating": 8.4,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "1 h 57 m",
+    "poster": "https://www.themoviedb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+  },
+  {
+    "title": "Coco",
+    "year": "2017",
+    "rating": 8.4,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "1 h 45 m",
+    "poster": "https://www.themoviedb.org/t/p/original/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+  },
+  {
+    "title": "Kung Fu Panda",
+    "year": "2008",
+    "rating": 7.6,
+    "genre": "Animation, Action, Adventure",
+    "timeLeft": "1 h 32 m",
+    "poster": "https://www.themoviedb.org/t/p/original/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg"
+  },
+  {
+    "title": "Cars",
+    "year": "2006",
+    "rating": 7.2,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 57 m",
+    "poster": "https://www.themoviedb.org/t/p/original/u4G8EkiIBZYx0wEg2xDlXZigTOZ.jpg"
+  },
+  {
+    "title": "Ice Age",
+    "year": "2002",
+    "rating": 7.5,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 21 m",
+    "poster": "https://www.themoviedb.org/t/p/original/xXn2waiYfzaVrpOYxRJS3uwSCyw.jpg"
+  },
+  {
+    "title": "Madagascar",
+    "year": "2005",
+    "rating": 6.9,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 26 m",
+    "poster": "https://www.themoviedb.org/t/p/original/pIoCYyovjDpNljQKJINHbPnexdZ.jpg"
+  },
+  {
+    "title": "Shrek",
+    "year": "2001",
+    "rating": 7.9,
+    "genre": "Animation, Adventure, Comedy",
+    "timeLeft": "1 h 30 m",
+    "poster": "https://www.themoviedb.org/t/p/original/EKERKucZeBrkrR8xLDTkr5FeDc.jpg"
+  }
+]
